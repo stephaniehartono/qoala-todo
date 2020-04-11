@@ -1,0 +1,85 @@
+.Card{
+  width: 35vw;
+  height: 15vh;
+  border: 1px solid black;
+  margin: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 10px #c1c1c1;
+}
+
+.left-content{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.date{
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.date-content{
+  font-size: 1.5vw;
+  font-family: 'Nunito';
+  font-weight: 700;
+}
+
+.time-content{
+  font-size: 1vw;
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+
+.time{
+  width: 80%;
+  height: 30%;
+}
+
+.right-content{
+  width: 70%;
+  height: 100%;
+}
+
+.delete-button{
+  width: 95%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.title{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.desc{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title-content{
+  font-size: 1.5vw;
+  font-family: 'Nunito';
+  font-weight: 700;
+}
+
+.desc-content{
+  font-size: 1vw;
+  font-family: 'Open Sans';
+  font-weight: 500;
+}

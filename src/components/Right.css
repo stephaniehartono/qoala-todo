@@ -1,0 +1,77 @@
+.Right {
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right-content-up{
+  width: 80%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+  margin-right: 14vw;
+}
+
+.add-button{
+  margin-right: 1vw;
+}
+
+.right-content-down{
+  width: 80%;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+.drawer{
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upper-drawer-content{
+  width: 80%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content{
+  font-size: 2.5vw;
+  font-family: 'Nunito';
+  font-weight: 500;
+  text-align: center;
+}
+
+.middle-drawer-content{
+  width: 80%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content{
+  margin: 1vw;
+}
+
+.lower-drawer-content{
+  width: 80%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
